@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBA3ED46136D715800B67839 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA3ED45136D715800B67839 /* Cocoa.framework */; };
+		EBA3ED50136D715800B67839 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBA3ED4E136D715800B67839 /* InfoPlist.strings */; };
+		EBA3ED53136D715800B67839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3ED52136D715800B67839 /* main.m */; };
+		EBA3ED56136D715800B67839 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EBA3ED54136D715800B67839 /* Credits.rtf */; };
+		EBA3ED59136D715800B67839 /* RememberItAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3ED58136D715800B67839 /* RememberItAppDelegate.m */; };
+		EBA3ED5C136D715800B67839 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA3ED5A136D715800B67839 /* MainMenu.xib */; };
+		EBA3ED63136D715800B67839 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA3ED45136D715800B67839 /* Cocoa.framework */; };
+		EBA3ED6B136D715800B67839 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBA3ED69136D715800B67839 /* InfoPlist.strings */; };
+		EBA3ED6E136D715800B67839 /* RememberItTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EBA3ED6D136D715800B67839 /* RememberItTests.h */; };
+		EBA3ED70136D715800B67839 /* RememberItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3ED6F136D715800B67839 /* RememberItTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBA3ED64136D715800B67839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBA3ED38136D715800B67839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBA3ED40136D715800B67839;
+			remoteInfo = RememberIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBA3ED41136D715800B67839 /* RememberIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA3ED45136D715800B67839 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EBA3ED48136D715800B67839 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EBA3ED49136D715800B67839 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EBA3ED4A136D715800B67839 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBA3ED4D136D715800B67839 /* RememberIt-Info.plist */ = {isa = PBXFileReference; path = "RememberIt-Info.plist"; sourceTree = "<group>"; };
+		EBA3ED4F136D715800B67839 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBA3ED51136D715800B67839 /* RememberIt-Prefix.pch */ = {isa = PBXFileReference; path = "RememberIt-Prefix.pch"; sourceTree = "<group>"; };
+		EBA3ED52136D715800B67839 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBA3ED55136D715800B67839 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EBA3ED57136D715800B67839 /* RememberItAppDelegate.h */ = {isa = PBXFileReference; path = RememberItAppDelegate.h; sourceTree = "<group>"; };
+		EBA3ED58136D715800B67839 /* RememberItAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RememberItAppDelegate.m; sourceTree = "<group>"; };
+		EBA3ED5B136D715800B67839 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EBA3ED62136D715800B67839 /* RememberItTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RememberItTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA3ED68136D715800B67839 /* RememberItTests-Info.plist */ = {isa = PBXFileReference; path = "RememberItTests-Info.plist"; sourceTree = "<group>"; };
+		EBA3ED6A136D715800B67839 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBA3ED6C136D715800B67839 /* RememberItTests-Prefix.pch */ = {isa = PBXFileReference; path = "RememberItTests-Prefix.pch"; sourceTree = "<group>"; };
+		EBA3ED6D136D715800B67839 /* RememberItTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RememberItTests.h; sourceTree = "<group>"; };
+		EBA3ED6F136D715800B67839 /* RememberItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RememberItTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBA3ED3E136D715800B67839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA3ED46136D715800B67839 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA3ED5E136D715800B67839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA3ED63136D715800B67839 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBA3ED36136D715800B67839 = {
+			isa = PBXGroup;
+			children = (
+				EBA3ED4B136D715800B67839 /* RememberIt */,
+				EBA3ED66136D715800B67839 /* RememberItTests */,
+				EBA3ED44136D715800B67839 /* Frameworks */,
+				EBA3ED42136D715800B67839 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBA3ED42136D715800B67839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBA3ED41136D715800B67839 /* RememberIt.app */,
+				EBA3ED62136D715800B67839 /* RememberItTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBA3ED44136D715800B67839 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBA3ED45136D715800B67839 /* Cocoa.framework */,
+				EBA3ED47136D715800B67839 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBA3ED47136D715800B67839 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBA3ED48136D715800B67839 /* AppKit.framework */,
+				EBA3ED49136D715800B67839 /* CoreData.framework */,
+				EBA3ED4A136D715800B67839 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EBA3ED4B136D715800B67839 /* RememberIt */ = {
+			isa = PBXGroup;
+			children = (
+				EBA3ED57136D715800B67839 /* RememberItAppDelegate.h */,
+				EBA3ED58136D715800B67839 /* RememberItAppDelegate.m */,
+				EBA3ED5A136D715800B67839 /* MainMenu.xib */,
+				EBA3ED4C136D715800B67839 /* Supporting Files */,
+			);
+			path = RememberIt;
+			sourceTree = "<group>";
+		};
+		EBA3ED4C136D715800B67839 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBA3ED4D136D715800B67839 /* RememberIt-Info.plist */,
+				EBA3ED4E136D715800B67839 /* InfoPlist.strings */,
+				EBA3ED51136D715800B67839 /* RememberIt-Prefix.pch */,
+				EBA3ED52136D715800B67839 /* main.m */,
+				EBA3ED54136D715800B67839 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBA3ED66136D715800B67839 /* RememberItTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBA3ED6D136D715800B67839 /* RememberItTests.h */,
+				EBA3ED6F136D715800B67839 /* RememberItTests.m */,
+				EBA3ED67136D715800B67839 /* Supporting Files */,
+			);
+			path = RememberItTests;
+			sourceTree = "<group>";
+		};
+		EBA3ED67136D715800B67839 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBA3ED68136D715800B67839 /* RememberItTests-Info.plist */,
+				EBA3ED69136D715800B67839 /* InfoPlist.strings */,
+				EBA3ED6C136D715800B67839 /* RememberItTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBA3ED40136D715800B67839 /* RememberIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA3ED73136D715800B67839 /* Build configuration list for PBXNativeTarget "RememberIt" */;
+			buildPhases = (
+				EBA3ED3D136D715800B67839 /* Sources */,
+				EBA3ED3E136D715800B67839 /* Frameworks */,
+				EBA3ED3F136D715800B67839 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RememberIt;
+			productName = RememberIt;
+			productReference = EBA3ED41136D715800B67839 /* RememberIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBA3ED61136D715800B67839 /* RememberItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA3ED76136D715800B67839 /* Build configuration list for PBXNativeTarget "RememberItTests" */;
+			buildPhases = (
+				EBA3ED5D136D715800B67839 /* Sources */,
+				EBA3ED5E136D715800B67839 /* Frameworks */,
+				EBA3ED5F136D715800B67839 /* Resources */,
+				EBA3ED60136D715800B67839 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBA3ED65136D715800B67839 /* PBXTargetDependency */,
+			);
+			name = RememberItTests;
+			productName = RememberItTests;
+			productReference = EBA3ED62136D715800B67839 /* RememberItTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBA3ED38136D715800B67839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "日本電産トーソク株式会社";
+			};
+			buildConfigurationList = EBA3ED3B136D715800B67839 /* Build configuration list for PBXProject "RememberIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBA3ED36136D715800B67839;
+			productRefGroup = EBA3ED42136D715800B67839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBA3ED40136D715800B67839 /* RememberIt */,
+				EBA3ED61136D715800B67839 /* RememberItTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBA3ED3F136D715800B67839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA3ED50136D715800B67839 /* InfoPlist.strings in Resources */,
+				EBA3ED56136D715800B67839 /* Credits.rtf in Resources */,
+				EBA3ED5C136D715800B67839 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA3ED5F136D715800B67839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA3ED6B136D715800B67839 /* InfoPlist.strings in Resources */,
+				EBA3ED6E136D715800B67839 /* RememberItTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EBA3ED60136D715800B67839 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBA3ED3D136D715800B67839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA3ED53136D715800B67839 /* main.m in Sources */,
+				EBA3ED59136D715800B67839 /* RememberItAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBA3ED5D136D715800B67839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA3ED70136D715800B67839 /* RememberItTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBA3ED65136D715800B67839 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBA3ED40136D715800B67839 /* RememberIt */;
+			targetProxy = EBA3ED64136D715800B67839 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBA3ED4E136D715800B67839 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA3ED4F136D715800B67839 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EBA3ED54136D715800B67839 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA3ED55136D715800B67839 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EBA3ED5A136D715800B67839 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA3ED5B136D715800B67839 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EBA3ED69136D715800B67839 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBA3ED6A136D715800B67839 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBA3ED71136D715800B67839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EBA3ED72136D715800B67839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EBA3ED74136D715800B67839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RememberIt/RememberIt-Prefix.pch";
+				INFOPLIST_FILE = "RememberIt/RememberIt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBA3ED75136D715800B67839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RememberIt/RememberIt-Prefix.pch";
+				INFOPLIST_FILE = "RememberIt/RememberIt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EBA3ED77136D715800B67839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RememberIt.app/Contents/MacOS/RememberIt";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RememberItTests/RememberItTests-Prefix.pch";
+				INFOPLIST_FILE = "RememberItTests/RememberItTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EBA3ED78136D715800B67839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RememberIt.app/Contents/MacOS/RememberIt";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RememberItTests/RememberItTests-Prefix.pch";
+				INFOPLIST_FILE = "RememberItTests/RememberItTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBA3ED3B136D715800B67839 /* Build configuration list for PBXProject "RememberIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA3ED71136D715800B67839 /* Debug */,
+				EBA3ED72136D715800B67839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA3ED73136D715800B67839 /* Build configuration list for PBXNativeTarget "RememberIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA3ED74136D715800B67839 /* Debug */,
+				EBA3ED75136D715800B67839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBA3ED76136D715800B67839 /* Build configuration list for PBXNativeTarget "RememberItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBA3ED77136D715800B67839 /* Debug */,
+				EBA3ED78136D715800B67839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBA3ED38136D715800B67839 /* Project object */;
+}
