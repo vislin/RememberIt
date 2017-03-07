@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB302ECB1376C69D00785F53 /* RegistController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB302ECA1376C69D00785F53 /* RegistController.m */; };
+		EB302F121376EA9900785F53 /* RegistrationWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB302F111376EA9900785F53 /* RegistrationWindow.xib */; };
 		EBA3ED46136D715800B67839 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA3ED45136D715800B67839 /* Cocoa.framework */; };
 		EBA3ED50136D715800B67839 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBA3ED4E136D715800B67839 /* InfoPlist.strings */; };
 		EBA3ED53136D715800B67839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3ED52136D715800B67839 /* main.m */; };
@@ -17,6 +19,7 @@
 		EBA3ED6B136D715800B67839 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBA3ED69136D715800B67839 /* InfoPlist.strings */; };
 		EBA3ED6E136D715800B67839 /* RememberItTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EBA3ED6D136D715800B67839 /* RememberItTests.h */; };
 		EBA3ED70136D715800B67839 /* RememberItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3ED6F136D715800B67839 /* RememberItTests.m */; };
+		EBA3ED7B136D737200B67839 /* AppControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3ED7A136D737200B67839 /* AppControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,25 +33,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB302EC91376C69D00785F53 /* RegistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistController.h; sourceTree = "<group>"; };
+		EB302ECA1376C69D00785F53 /* RegistController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistController.m; sourceTree = "<group>"; };
+		EB302F111376EA9900785F53 /* RegistrationWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationWindow.xib; sourceTree = "<group>"; };
+		EB416C9F137977BA00A2EBCB /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		EBA3ED41136D715800B67839 /* RememberIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA3ED45136D715800B67839 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		EBA3ED48136D715800B67839 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		EBA3ED49136D715800B67839 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EBA3ED4A136D715800B67839 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		EBA3ED4D136D715800B67839 /* RememberIt-Info.plist */ = {isa = PBXFileReference; path = "RememberIt-Info.plist"; sourceTree = "<group>"; };
+		EBA3ED4D136D715800B67839 /* RememberIt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RememberIt-Info.plist"; sourceTree = "<group>"; };
 		EBA3ED4F136D715800B67839 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EBA3ED51136D715800B67839 /* RememberIt-Prefix.pch */ = {isa = PBXFileReference; path = "RememberIt-Prefix.pch"; sourceTree = "<group>"; };
+		EBA3ED51136D715800B67839 /* RememberIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RememberIt-Prefix.pch"; sourceTree = "<group>"; };
 		EBA3ED52136D715800B67839 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBA3ED55136D715800B67839 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		EBA3ED57136D715800B67839 /* RememberItAppDelegate.h */ = {isa = PBXFileReference; path = RememberItAppDelegate.h; sourceTree = "<group>"; };
+		EBA3ED57136D715800B67839 /* RememberItAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RememberItAppDelegate.h; sourceTree = "<group>"; };
 		EBA3ED58136D715800B67839 /* RememberItAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RememberItAppDelegate.m; sourceTree = "<group>"; };
 		EBA3ED5B136D715800B67839 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EBA3ED62136D715800B67839 /* RememberItTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RememberItTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBA3ED68136D715800B67839 /* RememberItTests-Info.plist */ = {isa = PBXFileReference; path = "RememberItTests-Info.plist"; sourceTree = "<group>"; };
+		EBA3ED68136D715800B67839 /* RememberItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RememberItTests-Info.plist"; sourceTree = "<group>"; };
 		EBA3ED6A136D715800B67839 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EBA3ED6C136D715800B67839 /* RememberItTests-Prefix.pch */ = {isa = PBXFileReference; path = "RememberItTests-Prefix.pch"; sourceTree = "<group>"; };
+		EBA3ED6C136D715800B67839 /* RememberItTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RememberItTests-Prefix.pch"; sourceTree = "<group>"; };
 		EBA3ED6D136D715800B67839 /* RememberItTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RememberItTests.h; sourceTree = "<group>"; };
 		EBA3ED6F136D715800B67839 /* RememberItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RememberItTests.m; sourceTree = "<group>"; };
+		EBA3ED79136D737200B67839 /* AppControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppControl.h; sourceTree = "<group>"; };
+		EBA3ED7A136D737200B67839 /* AppControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +123,13 @@
 			children = (
 				EBA3ED57136D715800B67839 /* RememberItAppDelegate.h */,
 				EBA3ED58136D715800B67839 /* RememberItAppDelegate.m */,
+				EB416C9F137977BA00A2EBCB /* Define.h */,
 				EBA3ED5A136D715800B67839 /* MainMenu.xib */,
+				EBA3ED79136D737200B67839 /* AppControl.h */,
+				EBA3ED7A136D737200B67839 /* AppControl.m */,
+				EB302F111376EA9900785F53 /* RegistrationWindow.xib */,
+				EB302EC91376C69D00785F53 /* RegistController.h */,
+				EB302ECA1376C69D00785F53 /* RegistController.m */,
 				EBA3ED4C136D715800B67839 /* Supporting Files */,
 			);
 			path = RememberIt;
@@ -225,6 +240,7 @@
 				EBA3ED50136D715800B67839 /* InfoPlist.strings in Resources */,
 				EBA3ED56136D715800B67839 /* Credits.rtf in Resources */,
 				EBA3ED5C136D715800B67839 /* MainMenu.xib in Resources */,
+				EB302F121376EA9900785F53 /* RegistrationWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +278,8 @@
 			files = (
 				EBA3ED53136D715800B67839 /* main.m in Sources */,
 				EBA3ED59136D715800B67839 /* RememberItAppDelegate.m in Sources */,
+				EBA3ED7B136D737200B67839 /* AppControl.m in Sources */,
+				EB302ECB1376C69D00785F53 /* RegistController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +462,7 @@
 				EBA3ED75136D715800B67839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBA3ED76136D715800B67839 /* Build configuration list for PBXNativeTarget "RememberItTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +471,7 @@
 				EBA3ED78136D715800B67839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
